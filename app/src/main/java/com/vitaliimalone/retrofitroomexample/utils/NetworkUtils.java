@@ -1,4 +1,4 @@
-package com.vitaliimalone.retrofitroomexample;
+package com.vitaliimalone.retrofitroomexample.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

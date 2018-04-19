@@ -1,4 +1,4 @@
-package com.vitaliimalone.retrofitroomexample;
+package com.vitaliimalone.retrofitroomexample.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,10 +7,13 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.vitaliimalone.retrofitroomexample.adapter.PostAdapter;
+import com.vitaliimalone.retrofitroomexample.R;
 import com.vitaliimalone.retrofitroomexample.api.PostsApiClient;
 import com.vitaliimalone.retrofitroomexample.api.ServiceGenerator;
 import com.vitaliimalone.retrofitroomexample.database.AppDatabase;
 import com.vitaliimalone.retrofitroomexample.database.Post;
+import com.vitaliimalone.retrofitroomexample.utils.NetworkUtils;
 
 import java.util.List;
 
